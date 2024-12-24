@@ -49,7 +49,7 @@
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
         </div>
-        <button type="submit" class="btn btn-custom btn-block w-100">Login</button>
+        <a href="dashboard.php" class="btn btn-custom btn-block w-100">Login</a>
         <p class="mt-3">
             <a href="#" class="text-muted">Forgot Password?</a>
         </p>
