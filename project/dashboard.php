@@ -1,71 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-        .sidebar {
-            height: 100vh;
-            width: 250px;
-            background: #28a745;
-            position: fixed;
-            top: 0;
-            left: 0;
-            padding: 20px;
-            color: #fff;
-        }
-        .sidebar a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-        .sidebar .active {
-            font-weight: bold;
-        }
-        .main-content {
-            margin-left: 250px;
-            padding: 20px;
-            background-color: #f8f9fa;
-            min-height: 100vh;
-        }
-        .card {
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
+<?php
+include("common/header.php");
+
+?>
 <body>
 
-<!-- Sidebar -->
-<nav class="sidebar">
-    <h3 class="mb-4">Admin Dashboard</h3>
-    <ul class="nav flex-column">
-        <li class="nav-item mb-3">
-            <a href="#" class="nav-link active">Dashboard</a>
-        </li>
-        <li class="nav-item mb-3">
-            <a href="#" class="nav-link">Products</a>
-        </li>
-        <li class="nav-item mb-3">
-            <a href="#" class="nav-link">Orders</a>
-        </li>
-        <li class="nav-item mb-3">
-            <a href="#" class="nav-link">Customers</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Reports</a>
-        </li>
-    </ul>
-</nav>
+<?php
+include("SideNav.php");
+
+?>
 
 <!-- Main Content -->
 <div class="main-content">
@@ -163,8 +105,6 @@
         </div>
     </div>
 </div>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php
+include("common/footer.php");
+?>
