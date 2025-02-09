@@ -18,6 +18,44 @@
             </a>
         </li>
 
+        <!-- Sales Menu -->
+        <li class="nav-item mb-3">
+            <a class="nav-link d-flex justify-content-between align-items-center menu-toggle" href="#" data-target="salesMenu">
+                <span><i class="fas fa-cash-register"></i> Sales</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="collapse list-unstyled ms-4" id="salesMenu">
+                <li class="nav-item">
+                    <a href="add_sale.php" class="nav-link"><i class="fas fa-plus"></i> Add Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a href="view_sales.php" class="nav-link"><i class="fas fa-eye"></i> View Sales</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sales_report.php" class="nav-link"><i class="fas fa-chart-bar"></i> Sales Reports</a>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Purchase Menu -->
+        <li class="nav-item mb-3">
+            <a class="nav-link d-flex justify-content-between align-items-center menu-toggle" href="#" data-target="purchaseMenu">
+                <span><i class="fas fa-shopping-bag"></i> Purchase</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="collapse list-unstyled ms-4" id="purchaseMenu">
+                <li class="nav-item">
+                    <a href="add_purchase.php" class="nav-link"><i class="fas fa-plus"></i> Add Purchase</a>
+                </li>
+                <li class="nav-item">
+                    <a href="view_purchases.php" class="nav-link"><i class="fas fa-eye"></i> View Purchases</a>
+                </li>
+                <li class="nav-item">
+                    <a href="purchase_report.php" class="nav-link"><i class="fas fa-chart-line"></i> Purchase Reports</a>
+                </li>
+            </ul>
+        </li>
+
         <!-- Customers Menu -->
         <li class="nav-item mb-3">
             <a class="nav-link d-flex justify-content-between align-items-center menu-toggle" href="#" data-target="customersMenu">
@@ -53,7 +91,7 @@
             </ul>
         </li>
 
-        <!-- Reports Menu with Submenus -->
+        <!-- Reports Menu -->
         <li class="nav-item mb-3">
             <a class="nav-link d-flex justify-content-between align-items-center menu-toggle" href="#" data-target="reportsMenu">
                 <span><i class="fas fa-chart-line"></i> Reports</span>
