@@ -102,7 +102,7 @@
                     <a href="sales_report.php" class="nav-link"><i class="fas fa-chart-bar"></i> Sales Report</a>
                 </li>
                 <li class="nav-item">
-                    <a href="customer_report.php" class="nav-link"><i class="fas fa-user-chart"></i> Customer Report</a>
+                    <a href="report_customer.php" class="nav-link"><i class="fas fa-user-chart"></i> Customer Report</a>
                 </li>
                 <li class="nav-item">
                     <a href="inventory_report.php" class="nav-link"><i class="fas fa-warehouse"></i> Inventory Report</a>
