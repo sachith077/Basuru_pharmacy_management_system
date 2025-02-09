@@ -14,9 +14,8 @@
             align-items: center;
             justify-content: center;
         }
-        .login-container {
-            background: #fff;
-            padding: 30px;
+        .card {
+            border: none;
             border-radius: 10px;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
             max-width: 400px;
@@ -24,7 +23,7 @@
         }
         .brand-logo {
             width: 80px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         .btn-custom {
             background-color: #28a745;
@@ -37,25 +36,26 @@
 </head>
 <body>
 
-<div class="login-container text-center">
-    <img src="https://via.placeholder.com/80" alt="Pharmacy Logo" class="brand-logo">
-    <h3 class="mb-4">Pharmacy Login</h3>
-    <form action="login.php" method="POST">
-        <div class="mb-3 text-start">
-            <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" required>
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4">
+        <div class="card-body text-center">
+            <img src="assets/images/man.png" alt="Pharmacy Logo" class="brand-logo">
+            <h3 class="mb-3">Login</h3>
+            <form action="login.php" method="POST">
+                <div class="mb-3 text-start">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Enter your Username" required>
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your Password" required>
+                </div>
+                <a href="dashboard.php" class="btn btn-custom w-100">Login</a>
+            </form>
         </div>
-        <div class="mb-3 text-start">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+        <div class="card-footer text-center">
+            <p class="text-muted">© 2024 Pharmacy System</p>
         </div>
-        <a href="dashboard.php" class="btn btn-custom btn-block w-100">Login</a>
-        <p class="mt-3">
-            <a href="#" class="text-muted">Forgot Password?</a>
-        </p>
-    </form>
-    <div class="mt-4">
-        <p class="text-muted">© 2024 Pharmacy System</p>
     </div>
 </div>
 
