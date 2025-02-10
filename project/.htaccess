@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Rewrite ChangePassword to change_password.php
+RewriteRule ^ChangePassword$ change_password.php [NC,L]

@@ -17,8 +17,13 @@ include("SideNav_offcanvas.php");
         
         <!-- User Registration Section -->
         <div class="row mt-5">
-    <div class="col">
-        <h2 class="mb-4">Change Password</h2>
+             <div class="col">
+        <div class="card">
+            <div class="card-header">
+            <h2 class="">  <i class="fas fa-key me-2"></i>Change Password</h2>
+            </div>
+            <div class="card-body">
+          
         <form id="changePasswordForm" enctype="multipart/form-data">
             
             <!-- Current Password -->
@@ -32,7 +37,8 @@ include("SideNav_offcanvas.php");
             <div class="mb-3">
                 <label for="newPassword" class="form-label">New Password</label>
                 <input type="password" class="form-control" id="newPassword" placeholder="Enter new password" required>
-                <div class="alert alert-danger d-none" id="newPasswordError">New password must be at least 6 characters long and contain both letters and numbers.</div>
+                <div class="alert alert-danger d-none" id="newPasswordError">
+                    New password must be at least 6 characters long and contain both letters and numbers.</div>
             </div>
 
             <!-- Confirm New Password -->
@@ -42,9 +48,13 @@ include("SideNav_offcanvas.php");
                 <div class="alert alert-danger d-none" id="confirmNewPasswordError">Passwords do not match.</div>
             </div>
 
-            <button type="submit" class="btn btn-primary w-100">
-            <i class="fas fa-key me-2"></i>Change Password</button>
+            <button type="submit" class="btn btn-primary w-300 shadow">
+            <i class="fas fa-key me-2"></i>Change Password
+        </button>
         </form>
+            </div>
+        </div>
+       
     </div>
 </div>
 

@@ -1,6 +1,6 @@
 <!-- Sidebar -->
 <nav class="sidebar">
-    <h3 class="mb-4"><i class="fas fa-tachometer-alt"></i> Admin Dashboard</h3>
+    <h3 class="mb-4"><i class="fas fa-tachometer-alt"></i> Basuru Pharmacueticals</h3>
     <ul class="nav flex-column">
         <li class="nav-item mb-3">
             <a href="#" class="nav-link active">

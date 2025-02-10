@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basuru Pharmaceuticals</title>
 <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <!-- google charts -->
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -53,6 +56,7 @@
         body {
             min-height: 100vh;
             overflow-x: hidden;
+            font-family: "Poppins", serif;
         }
         .sidebar {
             height: 100vh;
@@ -70,7 +74,8 @@
             font-size: 1.1rem;
         }
         .sidebar a:hover {
-            text-decoration: underline;
+            text-decoration: none;
+            color:rgb(196, 194, 194) !important; /* Light grayish white */
         }
         .sidebar .active {
             font-weight: bold;
